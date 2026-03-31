@@ -28,5 +28,6 @@ bool isFibonacci(int n) {
     while (a < n){
         int temp = a + b;
         a = b;
+        b = temp;
     }
 }
