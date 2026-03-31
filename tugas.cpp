@@ -52,3 +52,8 @@ void tampilkanMenu() {
     cin >> pilihan;
 }
 
+int main() {
+    while (true) {
+        tampilkanMenu();
+    }
+}
