@@ -20,3 +20,8 @@ bool isPrima(int n) {
      }
      return true;
 }
+
+// mengecek bilangan Finoacci dengan bool menggunakan while loop
+bool isFibonacci(int n) {
+    if (n < 0) return false;
+}
