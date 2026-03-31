@@ -6,5 +6,6 @@ int angka, pilihan;
 
 // untuk menginputkan angka yang akan di cek
 void inputAngka() {
-    
+    cout << "Masukkan angka yang ingin dicek: ";
+    cin >> angka;
 }
