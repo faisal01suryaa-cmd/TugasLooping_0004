@@ -9,3 +9,9 @@ void inputAngka() {
     cout << "Masukkan angka yang ingin dicek: ";
     cin >> angka;
 }
+
+// mengecek bilangan prima dengan bool menggunaka  while loop
+bool isPrima(int n) {
+    if (n <= 1) return false;
+    
+}
