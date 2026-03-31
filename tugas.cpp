@@ -24,4 +24,5 @@ bool isPrima(int n) {
 // mengecek bilangan Finoacci dengan bool menggunakan while loop
 bool isFibonacci(int n) {
     if (n < 0) return false ;
+    int a = 0, b = 1;
 }
