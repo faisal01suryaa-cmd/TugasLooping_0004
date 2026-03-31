@@ -72,6 +72,9 @@ int main() {
                 cout << "Keluar dari program. Terima kasih!" << endl;
                 return 0;
 
+            default:
+                cout << "Pilihan tidak valid." << endl;
+                break;
 
 
     }
