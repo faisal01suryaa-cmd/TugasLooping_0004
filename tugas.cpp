@@ -55,5 +55,14 @@ void tampilkanMenu() {
 int main() {
     while (true) {
         tampilkanMenu();
+
+         // switch case untuk pilihan menu
+        switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilkanHasil("Bilangan Prima", isPrima(angka));
+                break;
+
     }
+}
 }
