@@ -32,3 +32,12 @@ bool isFibonacci(int n) {
     }
     return (a == n);
 }
+
+// menampilkan hasil pengecekan
+void tampilkanHasil(string jenis, bool hasil) {
+    if (hasil) {
+        cout << "Hasil: " << angka << " adalah " << jenis << "." << endl;
+    } else {
+        cout << "Hasil: " << angka << " BUKAN " << jenis << "." << endl;
+    }
+}
