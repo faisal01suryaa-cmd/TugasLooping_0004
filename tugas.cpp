@@ -62,6 +62,12 @@ int main() {
                 inputAngka();
                 tampilkanHasil("Bilangan Prima", isPrima(angka));
                 break;
+        
+            case 2:
+                inputAngka();
+                tampilkanHasil("Bilangan Fibonacci", isFibonacci(angka));
+                break;
+
 
     }
 }
