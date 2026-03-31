@@ -13,5 +13,5 @@ void inputAngka() {
 // mengecek bilangan prima dengan bool menggunaka  while loop
 bool isPrima(int n) {
     if (n <= 1) return false;
-    
+    int i = 2;
 }
