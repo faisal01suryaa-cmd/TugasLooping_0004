@@ -1,5 +1,10 @@
 #include <iostream>
 using namespace std;
 
-// Variabel Global
+// variabel global
 int angka, pilihan;
+
+// untuk menginputkan angka yang akan di cek
+void inputAngka() {
+    
+}
